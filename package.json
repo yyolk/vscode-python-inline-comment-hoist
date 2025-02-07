@@ -9,15 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:python-inline-comment-hoise.moveInlineComments"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "python-inline-comment-hoist.moveInlineComments",
-        "title": "Move python inline comments above the line"
+        "command": "python-inline-comment-hoist.hoistInlineComments",
+        "title": "Hoist (move) python inline comments above the line"
       }
     ]
   },
