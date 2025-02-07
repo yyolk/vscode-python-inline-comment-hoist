@@ -4,6 +4,7 @@
   "description": "Hoist inline comments to above the line.",
   "version": "0.0.1",
   "repository": "github:yyolk/vscode-python-inline-comment-hoist",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.96.0"
   },
