@@ -31,7 +31,6 @@ function hoistInlineComments(code: string): string {
         let commentIndex = line.indexOf('#');
         if (commentIndex !== -1) {
             // Determine the indentation of the original line
-            // let indentation = line.slice(0, (line.match(/^\s*/)?.[0] || '' ).length);
             let indentation = line.match(/^\s*/)?.[0] || '';
             
             let codePart = line.slice(0, commentIndex).trimEnd();
