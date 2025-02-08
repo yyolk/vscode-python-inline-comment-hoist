@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "repository": "github:yyolk/vscode-python-inline-comment-hoist",
   "license": "MIT",
+  "publisher": "YOLK",
   "engines": {
     "vscode": "^1.96.0"
   },
